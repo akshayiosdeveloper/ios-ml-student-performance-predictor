@@ -70,14 +70,11 @@ Cloud Deployment
 <p align="center">
   <img src="screenshots/home_screen.png" width="280" height="580"/>
   <img src="screenshots/pass_student_prediction.png" width="280" height="580"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/fail_student_prediction.png" width="280" height="580"/>
   <img src="screenshots/pass_student_chart.png" width="280" height="580"/>
 </p>
 
 <p align="center">
+  <img src="screenshots/fail_student_prediction.png" width="280" height="580"/>
   <img src="screenshots/fail_student_chart.png" width="280" height="580"/>
 </p>
 ---
