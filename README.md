@@ -65,6 +65,12 @@ Cloud Deployment
 
 ---
 
+## Demo Video
+
+https://github.com/akshayiosdeveloper/ios-ml-student-performance-predictor/blob/master/demo-video_sample.mp4
+
+---
+
 ## App Screenshots
 
 <p align="center">
@@ -77,7 +83,6 @@ Cloud Deployment
   <img src="screenshots/fail_student_prediction.png" width="280" height="580"/>
   <img src="screenshots/fail_student_chart.png" width="280" height="580"/>
 </p>
----
 
 ## Project Structure
 
