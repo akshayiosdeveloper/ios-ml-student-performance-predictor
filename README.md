@@ -69,23 +69,33 @@ Cloud Deployment
 
 ### Home Screen
 
-![Home Screen](screenshots/home_screen.png)
+<p align="center">
+  <img src="screenshots/home_screen.png" width="350"/>
+</p>
 
 ### Pass Prediction Result
 
-![Pass Prediction](screenshots/pass_student_prediction.png)
+<p align="center">
+  <img src="screenshots/pass_student_prediction.png" width="350"/>
+</p>
 
 ### Fail Prediction Result
 
-![Fail Prediction](screenshots/fail_student_prediction.png)
+<p align="center">
+  <img src="screenshots/fail_student_prediction.png" width="350"/>
+</p>
 
 ### Feature Importance (Pass Case)
 
-![Pass Chart](screenshots/pass_student_chart.png)
+<p align="center">
+  <img src="screenshots/pass_student_chart.png" width="350"/>
+</p>
 
 ### Feature Importance (Fail Case)
 
-![Fail Chart](screenshots/fail_student_chart.png)
+<p align="center">
+  <img src="screenshots/fail_student_chart.png" width="350"/>
+</p>
 
 ---
 
