@@ -1,22 +1,28 @@
-![Python](https://img.shields.io/badge/Python-ML-blue)
-![SwiftUI](https://img.shields.io/badge/iOS-SwiftUI-orange)
-![FastAPI](https://img.shields.io/badge/API-FastAPI-green)
-![Machine Learning](https://img.shields.io/badge/ML-Model-red)
+# iOS ML Student Performance Predictor
 
-# Student Performance Predictor (AI + iOS App)
+An iOS app that predicts whether a student will pass or fail using a Machine Learning model served via FastAPI backend.
 
-An end-to-end AI-powered iOS application that predicts whether a student will **pass or fail** based on study patterns.
-The app communicates with a deployed **FastAPI backend** that runs a trained machine learning model.
-
-This project demonstrates how to integrate **Machine Learning + Backend API + iOS App** in a real-world architecture.
+![Swift](https://img.shields.io/badge/Swift-5-orange)
+![Python](https://img.shields.io/badge/Python-FastAPI-blue)
+![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-green)
+![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey)
 
 ---
 
+## Project Overview
+
+This project demonstrates how an iOS application can integrate with a Machine Learning model hosted on a backend API.
+
+The app predicts student performance based on:
+
+- Hours Studied
+- Sleep Hours
+- Practice Tests
+
+The ML model is trained using **Scikit-learn** and served using **FastAPI**.  
+The iOS app is built using **SwiftUI** and communicates with the backend through REST APIs.
+
 ## Demo Video
-
-Watch the application demo below:
-
-demo-video.mov
 
 This video shows:
 
@@ -26,97 +32,77 @@ This video shows:
 - Visualizing feature importance
 - Viewing prediction history
 
----
+https://github.com/akshayiosdeveloper/ios-ml-student-performance-predictor/blob/master/demo-video_sample.mp4
+
+## App Screenshots
+
+<p align="center">
+  <img src="screenshots/home_screen.png" width="260" height="540"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/pass_student_prediction.png" width="260" height="540"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/fail_student_prediction.png" width="260" height="540"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/pass_student_chart.png" width="260" height="540"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/fail_student_chart.png" width="260" height="540"/>
+</p>
 
 ## Architecture
 
 iOS App (SwiftUI)
 ↓
-REST API Request
+REST API
 ↓
-FastAPI Backend (Cloud Deployment)
+FastAPI Backend
 ↓
-Machine Learning Model (Scikit-learn)
-↓
-Prediction + Confidence + Insights returned to App
+Scikit-learn ML Model
 
 ---
 
 ## Tech Stack
 
-SwiftUI (iOS App)
-Python
-FastAPI
-Scikit-learn
-REST APIs
-Machine Learning
-Cloud Deployment
+Frontend:
+
+- SwiftUI
+- iOS
+
+Backend:
+
+- FastAPI
+- Python
+
+Machine Learning:
+
+- Scikit-learn
+- NumPy
+- Pandas
+
+Deployment:
+
+- Render
 
 ---
 
 ## Features
 
-- AI-based student performance prediction
-- Confidence score for predictions
-- Feature importance visualization using charts
-- Prediction history tracking
-- Cloud-hosted backend API
-- Clean and responsive SwiftUI UI
-
----
-
-## Demo Video
-
-https://github.com/akshayiosdeveloper/ios-ml-student-performance-predictor/blob/master/demo-video_sample.mp4
-
----
-
-## App Screenshots
-
-<p align="center">
-  <img src="screenshots/home_screen.png" width="280" height="580"/>
-  <img src="screenshots/pass_student_prediction.png" width="280" height="580"/>
-  <img src="screenshots/pass_student_chart.png" width="280" height="580"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/fail_student_prediction.png" width="280" height="580"/>
-  <img src="screenshots/fail_student_chart.png" width="280" height="580"/>
-</p>
-
-## Project Structure
-
-student-performance-ai-app/
-
-backend/ → Backend development and training-related code
-ios-app/ → SwiftUI iOS application
-main.py → Production FastAPI server used for deployment
-model.pkl → Trained machine learning model
-requirements.txt → Python dependencies
-screenshots/ → Application screenshots
-demo-video.mov → Application demo video
-
----
-
-## What I Learned From This Project
-
-- Deploying machine learning models with FastAPI
-- Integrating AI backend with iOS applications
-- Designing REST APIs for ML predictions
-- Visualizing model insights inside mobile apps
-- Building an end-to-end AI application
+- Predict student performance
+- Feature importance visualization
+- Prediction history
+- REST API integration
+- Deployed backend
+- Clean SwiftUI UI
 
 ---
 
 ## Future Improvements
 
-- Add SHAP-based prediction explanations
-- Improve model accuracy with larger datasets
-- Add analytics dashboard for predictions
-- Add user authentication
-- Store prediction history in database
-
----
+- Add more ML models
+- Improve dataset
+- Add authentication
+- Deploy iOS app to App Store
 
 ## Author
 
