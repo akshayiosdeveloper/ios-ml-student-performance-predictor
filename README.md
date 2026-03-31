@@ -65,38 +65,21 @@ Cloud Deployment
 
 ---
 
-## Screenshots
-
-### Home Screen
+## App Screenshots
 
 <p align="center">
-  <img src="screenshots/home_screen.png" width="350"/>
+  <img src="screenshots/home_screen.png" width="280" height="580"/>
+  <img src="screenshots/pass_student_prediction.png" width="280" height="580"/>
 </p>
-
-### Pass Prediction Result
 
 <p align="center">
-  <img src="screenshots/pass_student_prediction.png" width="350"/>
+  <img src="screenshots/fail_student_prediction.png" width="280" height="580"/>
+  <img src="screenshots/pass_student_chart.png" width="280" height="580"/>
 </p>
-
-### Fail Prediction Result
 
 <p align="center">
-  <img src="screenshots/fail_student_prediction.png" width="350"/>
+  <img src="screenshots/fail_student_chart.png" width="280" height="580"/>
 </p>
-
-### Feature Importance (Pass Case)
-
-<p align="center">
-  <img src="screenshots/pass_student_chart.png" width="350"/>
-</p>
-
-### Feature Importance (Fail Case)
-
-<p align="center">
-  <img src="screenshots/fail_student_chart.png" width="350"/>
-</p>
-
 ---
 
 ## Project Structure
